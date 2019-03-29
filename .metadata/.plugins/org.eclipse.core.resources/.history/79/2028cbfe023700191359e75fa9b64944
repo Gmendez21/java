@@ -1,0 +1,42 @@
+package com.review;
+
+public class ClassOne {
+
+public static void main(String [] args) {
+	
+	int a = 1; 
+	byte b = 126;
+	short s = 619; 
+	float f = 30.3f;
+	double d = 4000.099;
+	boolean c= false;
+	long l = 747547598475l; 
+	
+
+	
+	
+	String firstName = "German";
+	String lastName = "Mendez";
+	String middlename = "Antonio";
+	String city = "Fairfax Station";
+	int zipcode = 22039;
+	String state = "VA";
+	long number = 5713456638l; 
+	
+	System.out.println(firstName);
+	
+	
+			
+	
+	
+	
+			
+	
+	
+	
+	
+	
+	
+	
+}
+}

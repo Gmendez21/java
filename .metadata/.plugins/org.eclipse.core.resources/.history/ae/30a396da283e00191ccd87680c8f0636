@@ -1,0 +1,27 @@
+package JAVAreviews;
+
+import java.util.Scanner;
+
+public class review {
+	
+	public static void main (String [] args) {
+
+//		Input variable in console using 121.
+//		Find out if a number is Even or ODD
+//		Please display "Even" if number is even
+//		and "Odd" if the number is an odd number 
+		
+		int a = 121; 
+		Scanner scan =new Scanner(System.in);
+		System.out.println("please enter the number");
+		a=scan.nextInt();
+		
+		if (121%2==0)
+		System.out.println("the number is even"); 
+		
+	else 
+		System.out.println("the number is even");
+		
+		
+}
+}

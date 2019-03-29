@@ -1,0 +1,16 @@
+package JAVAreviews;
+
+public class review {
+	
+	public static void main (String [] args) {
+
+//		Create an integer variable on line 4 and set it to the value 21.
+		
+		int x = 21;
+		
+		System.out.println(x);
+		
+		
+		
+}
+}

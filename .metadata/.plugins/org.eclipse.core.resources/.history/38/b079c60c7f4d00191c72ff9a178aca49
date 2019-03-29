@@ -1,0 +1,28 @@
+package com.class11;
+
+public class PracticeTasks {
+
+	public static void main(String[] args) {
+		
+		String [] cars = new String [6]; 
+		
+		cars [0] = "Ford"; 
+		cars [1] = "Honda"; 
+		cars [2] = "Audi"; 
+		cars [3] = "BMW"; 
+		cars [4] = "Nissan"; 
+		cars [5] = "Toyota"; 
+		
+		for (int i=0; i<=cars.length-1; i++) { 
+			
+			System.out.println(cars [i]);
+			
+			
+		}
+		
+		
+		
+	}
+	
+	
+}

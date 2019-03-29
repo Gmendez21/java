@@ -1,0 +1,38 @@
+package com.class9;
+
+import java.util.Scanner;
+
+public class taskLoops1 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+		String item;
+
+		double price = 50.00;
+
+		double amount;
+
+		double difference = price;
+
+		System.out.println("Please enter the item you want to buy");
+
+		item = scan.next();
+
+		do {
+			System.out.println("Enter payment");
+
+			amount = scan.nextDouble();
+
+			difference = difference - amount;
+
+		} while (difference > 0);
+
+		System.out.println("You have paid it all Thank you");
+
+		{
+
+		}
+	}
+}

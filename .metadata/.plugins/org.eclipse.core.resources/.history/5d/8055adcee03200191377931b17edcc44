@@ -1,0 +1,24 @@
+package com.class2;
+
+public class Exercise1 {
+	
+	public static void main(String[] args ){ 
+		String name = "German";
+		String lastname = "Mendez";
+		String grade = "A"; 
+		String city = "Fairfax Station";
+		String state = "VA"; 
+		long phoneNumber = 5713456638l;
+		
+		System.out.println( "My name is "+name+" and my last name is "+ lastname+"."); 
+		System.out.println("I am"+grade+ "student"+".");
+		System.out.println("I live in the city of" + city + "in the state of" +state+ ".");
+		System.out.println( "My phone number is" +phoneNumber+".");
+		
+		
+		
+	}
+			
+			
+			
+}

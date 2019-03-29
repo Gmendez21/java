@@ -1,0 +1,25 @@
+package com.class2;
+
+public class Task1 {
+	
+	public static void main(String[] args) {
+		
+	//1. Write and java program to add. subtract, multiply, and divide 2 decimal values.Your program should say "The ___ of the 2 numbers __ and __ is equal to __" 
+	
+		double a= 22.2;
+		double b= 11.2; 
+		
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);	
+		System.out.println(a/b);
+		
+		double sum=a+b; 
+		double sub=a-b;
+		double mult=a*b;
+		double div=a/b; 
+		
+		
+	}
+
+}
