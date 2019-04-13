@@ -1,17 +1,22 @@
 package test;
 
-public class practice {
+public class test {
 	
 
+	
+		  void forLoop(){
 		  
-		public static void main (String[] args){
-		  
-		  String name = "Timmy";
-		  int lengthOfString=name.length(); 
-		  
-		  System.out.println(lengthOfString);
-		  
-		
+		   for ( int i=1; i<=10; i++) {
+		     
+		     System.out.print(i);
+		   }
 
+		  }
+		  
+		  public static void main(String[] args) {
+		    
+		    test num = new test();
+		    num.forLoop();
+		    
+		  }
 		}
-	}
