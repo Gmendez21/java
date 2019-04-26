@@ -46,7 +46,7 @@ public class Dog {
 							+weight+" and height is "+height);
 		}
 		
-	}
+	
 
 
 }

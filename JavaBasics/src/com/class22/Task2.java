@@ -1,3 +1,4 @@
+package com.class22;
 
 public class Task2 {
 	
@@ -18,15 +19,9 @@ public class Task2 {
 		
 		int average; 
 		average = (englishGrade+historyGrade+artGrade) / 3; 
-		{ 
+		
 			
 			System.out.println(firstName+" "+lastName+"'s" +average+":");
-			
-		}
-		
-		
-	
-		
 		
 	}
 	
